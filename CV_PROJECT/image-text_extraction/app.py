@@ -80,7 +80,7 @@ def preprocess_image(image, enhance_contrast=False, resize_factor=1.0):
 def main():
     st.title("📝 Image to Text Converter")
     st.markdown("Upload an image and get the text instantly")
-    
+    t_model=None
     # Sidebar for options
     st.sidebar.header("⚙️ OCR Settings")
     
